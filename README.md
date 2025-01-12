@@ -42,11 +42,5 @@ For a step-by-step tutorial on setting up this project, watch the video below:
 - Feel free to fork this repository and contribute to improving the security models or adding more features.
 - Open a Pull Request with your changes.
 
----
-
 ## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-By adding the YouTube Video section, you can provide users with an additional resource for learning how to implement the solution, making it more user-friendly and accessible. Just replace the `YOUR_VIDEO_ID` with the actual ID of the video you want to share.
