@@ -25,9 +25,8 @@ This project demonstrates how to use AWS S3 and IAM (Identity and Access Managem
 ### Instructions:
 1. Clone this repository.
 2. Create an S3 bucket for healthcare data.
-3. Apply IAM policies to restrict access to authorized users.
-4. Configure MFA for sensitive users.
-5. Follow the setup instructions in the repository files.
+3. Apply IAM policies and bucket policy to restrict access to authorized users.
+4. Follow the setup instructions in the repository files.
 
 ### YouTube Video:
 For a step-by-step tutorial on setting up this project, watch the video below:
