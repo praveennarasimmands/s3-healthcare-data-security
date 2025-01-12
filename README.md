@@ -35,7 +35,7 @@ This project demonstrates how to use AWS S3 and IAM (Identity and Access Managem
 ### YouTube Video:
 For a step-by-step tutorial on setting up this project, watch the video below:
 
-[![S3 Healthcare Data Security Tutorial](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[S3 Healthcare Data Security Tutorial](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)
 
 
 ### Contributing:
