@@ -1,0 +1,33 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowAccessFromSpecificIP",
+            "Effect": "Allow",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::healthcare-data-bucket",
+                "arn:aws:s3:::healthcare-data-bucket/*"
+            ],
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "192.168.1.0/24"
+                }
+            }
+        },
+        {
+            "Sid": "RestrictAccessToAuthorizedUsers",
+            "Effect": "Deny",
+            "Action": "s3:*",
+            "Resource": [
+                "arn:aws:s3:::healthcare-data-bucket",
+                "arn:aws:s3:::healthcare-data-bucket/*"
+            ],
+            "Condition": {
+                "StringNotEquals": {
+                    "aws:PrincipalTag/role": "doctor"
+                }
+            }
+        }
+    ]
+}
