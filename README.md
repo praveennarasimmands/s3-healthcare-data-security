@@ -1,7 +1,3 @@
-Here's an updated version of the README.md with a "YouTube Video" section included, which can link to a tutorial or walkthrough video for the project:
-
----
-
 # S3 Healthcare Data Security Project
 
 ## Domain: Healthcare
