@@ -12,6 +12,8 @@ This project demonstrates how to use AWS S3 and IAM (Identity and Access Managem
 - **S3 Bucket Security**: Creating an S3 bucket to securely store healthcare-related data.
 - **IAM Policies**: Defining IAM policies to control access based on user roles and IP addresses.
 - **Bucket Policy**: Implementing S3 bucket policies that restrict access to authorized users.
+---
+![image](https://github.com/user-attachments/assets/406c5df5-ad62-46ce-8c4a-ab339ef1029d)
 
 ### Implementation:
 1. **Create the S3 Bucket**: Store patient data in a secure S3 bucket.
